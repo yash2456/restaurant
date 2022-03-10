@@ -93,6 +93,12 @@
           "comment": "It's your birthday, we're gonna party!",
           "author": "25 Cent",
           "date": "2011-12-02T17:57:28.556094Z"
+        },
+        {
+          "author": "aaaaaa",
+          "comment": "zdx",
+          "rating": 2,
+          "date": "2022-03-10T17:31:30.119Z"
         }
       ]
     },
@@ -256,6 +262,11 @@
       "contacttype": "Email",
       "message": "tereyteyy",
       "id": 2
+    }
+  ],
+  "logo": [
+    {
+      "imag": "images/logo.png"
     }
   ]
 }

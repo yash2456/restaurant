@@ -54,4 +54,8 @@ export class PromotionService {
     .pipe(map(promotions => promotions[0]))
     .pipe(catchError(this.processHttp.handleError));
   }
+
+  getLogo():Observable<any[]>{
+    return this.http.get<any[]>(baseURL + 'logo')
+  }
 }
